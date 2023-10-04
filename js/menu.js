@@ -1,5 +1,5 @@
 multilineString =
-  '<div class="fixed-top">'+
+  '<div>'+
   '<div class="d-flex flex-row nowrap">'+
   '<img style="height: 50px;" class="" src="img/logo_mallorca.png">'+
   '<h1>Mallorca</h1>'+
