@@ -1,4 +1,7 @@
 .opcion{
+    display:flex;
+    justify-content: center;
+    align-self: center;
     height: 200px;
     width: 200px;
     background-color: darkgray;
