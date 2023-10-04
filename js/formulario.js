@@ -36,6 +36,12 @@ function validarFormulario() {
         camposValidos = false;
     }
 
+    function validarCorreoElectronico() {
+        // Verificar si el correo tiene un formato válido (puedes usar una expresión regular)
+        const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        return re.test(emailinput.value);
+    }
+
     if(seleccionAdjuntar.value.trim() === ""){
         alert('Debe adjuntar algo')
         camposValidos = false;
