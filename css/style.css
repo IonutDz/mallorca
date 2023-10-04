@@ -1,4 +1,10 @@
 .opcion{
     height: 200px;
     width: 200px;
+    background-color: darkgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+.divprincipal{
+    background-color: #EEF2F5;
 }
