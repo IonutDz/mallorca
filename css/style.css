@@ -36,3 +36,8 @@ a:link, a:visited, a:active{
         width: 500px;
     }
 }
+
+.nav-link:hover{
+    background-color: lightgray;
+    color: black;
+}
