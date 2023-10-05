@@ -1,7 +1,7 @@
 multilineString =
-  '<div class="d-flex flex-row nowrap">'+
+  '<div class="d-flex flex-row nowrap bg-dark">'+
   '<img style="height: 50px;" class="" src="images/logo_mallorca.png">'+
-  '<h1>Mallorca</h1>'+
+  '<h1 class="text-light">Mallorca</h1>'+
   '</div>'+
   '<div class="d-flex flex-row bg-dark">'+
   '<ul class="nav justify-content-center d-flex flex-column flex-lg-row flex-md-row align-content-center col-11">'+
