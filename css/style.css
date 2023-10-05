@@ -15,15 +15,24 @@
 height: 400px;
 width: 900px;
 }
+.icono{
+ width: 80%;
+ height: 80%;
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color:black;
+}
 @media only screen and (max-width: 800px) {
 .video{
     height: 300px;
     width: 700px;
 }
 }
+
 @media only screen and (max-width: 600px) {
     .video{
         height: 200px;
         width: 500px;
     }
-    }
+}
