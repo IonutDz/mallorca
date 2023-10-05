@@ -1,6 +1,6 @@
 multilineString =
   '<div class="container">'+
-  '<footer class="py-3 my-4" id="normal">'+
+  '<footer class="py-3 my-4 d-lg-block d-md-block d-none">'+
   '<ul class="nav justify-content-center border-bottom pb-3 mb-3">'+
   '<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>'+
   '<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>'+
@@ -10,8 +10,8 @@ multilineString =
   '</ul>'+
   '<p class="text-center text-muted">© 2023 Mallorca</p>'+
   '</footer>'+
-  '</div>'
-  '<div class="accordion d-none" id="acordeon">'+
+  '</div>'+
+  '<div class="accordion d-block d-lg-none d-md-none">'+
   '<div class="accordion-item">'+
   '<h2 class="accordion-header" id="headingOne">'+
   '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">'+

@@ -53,7 +53,6 @@ function validarFormulario() {
 
 
 
-
     return camposValidos;
 }
 
@@ -75,10 +74,22 @@ document.getElementById("fincontacto").addEventListener("submit", function (even
 
 seleccionEmail = document.getElementById("selectcorreo");
 seleccionEmailRepe = document.getElementById("selectrepecorreo");
+
 seleccionEmail.addEventListener("input", function () {
     if (seleccionEmail.value.trim() !== '') {
-        seleccionEmailRepe.disabled = false; // Habilitar el campo de apellido
+        seleccionEmailRepe.disabled = false; // Habilitar el campo de correo repetido
     } else {
-        seleccionEmailRepe.disabled = true; // Desactivar el campo de apellido
+        seleccionEmailRepe.disabled = true; // Deshabilitar el campo de correo repetido
     }
 });
+
+const correo1 = document.getElementById("selectcorreo");
+const correo2 = document.getElementById("selectrepecorreo");
+selectrepecorreo.addEventListener("input", correoigual);
+function correoigual() {
+    if (correo1.value !== correo2.value) {
+        correo2.setCustomValidity("Las claves no son iguales");
+    } else {
+        correo2.setCustomValidity('');
+    }
+}
