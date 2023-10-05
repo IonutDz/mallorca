@@ -6,12 +6,11 @@ multilineString =
   '<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>'+
   '<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>'+
   '<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>'+
-  '<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>'+
   '</ul>'+
   '<p class="text-center text-muted">© 2023 Mallorca</p>'+
   '</footer>'+
   '</div>'+
-  '<div class="accordion d-block d-lg-none d-md-none">'+
+/*'<div class="accordion d-block d-lg-none d-md-none">'+
   '<div class="accordion-item">'+
   '<h2 class="accordion-header" id="headingOne">'+
   '<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">'+
@@ -48,5 +47,6 @@ multilineString =
   '</div>'+
   '</div>'+
   '</div>'+
-  '</div>';
+  '</div>'*/
+  ;
 document.write(multilineString);
