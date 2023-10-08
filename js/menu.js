@@ -1,9 +1,9 @@
-multilineString =
+const multilineString =
   '<div class="d-flex flex-row nowrap bg-dark">'+
   '<img style="height: 50px;" class="" src="images/logo_mallorca.png">'+
   '<h1 class="text-light">Mallorca</h1>'+
   '</div>'+
-  '<div class="d-flex flex-row bg-dark">'+
+  '<nav class="d-flex flex-row bg-dark">'+
   '<ul class="nav justify-content-center d-flex flex-column flex-lg-row flex-md-row align-content-center col-11">'+
   '<li class="nav-item">'+
   '<a class="nav-link text-light" href="html/pagina1.html">pagina 1</a>'+
@@ -21,5 +21,11 @@ multilineString =
   '<div class="col-1 d-flex justify-content-center">'+
   '<button type="button" class="btn btn-light">botoia</button>'+
   '</div>'+
-  '</div>';
+  '</nav>';
 document.write(multilineString);
+
+
+
+
+
+
