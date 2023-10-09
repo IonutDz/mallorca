@@ -48,4 +48,8 @@ multilineString =
   '</div>'+
   '</div>'+
   '</div>';
-document.write(multilineString);
+
+
+
+document.body.insertAdjacentHTML("afterend", multilineString);
+//document.write(multilineString);
