@@ -1,8 +1,8 @@
 selecionarAsunto = document.getElementById("selectasunto");
 seleccionarActividad = document.getElementById("selectactividad");
 seleccionarNombre = document.getElementById("selectnombre");
-seleccionEmail = document.getElementById("selectcorreo");
-seleccionEmailRepe = document.getElementById("selectrepecorreo");
+seleccionEmail = document.getElementById("selectcorreo"); // Cambia "selectcorreo" aquí
+seleccionApellido = document.getElementById("selectapellido");
 seleccionCampoAlto = document.getElementById("selectcampoalto");
 seleccionAdjuntar = document.getElementById("adjuntarArchivo");
 seleccionCheckbox = document.getElementById("checkbox");
@@ -31,8 +31,8 @@ function validarFormulario() {
         camposValidos = false;
     }
 
-    if (seleccionEmailRepe.value.trim() === "") {
-        alert('Debe ingresar el mismo correo electronico')
+    if (seleccionApellido.value.trim() === "") {
+        alert('Debe ingresar un apellido')
         camposValidos = false;
     }
 
@@ -72,25 +72,16 @@ document.getElementById("fincontacto").addEventListener("submit", function (even
     }
 });
 
-seleccionEmail = document.getElementById("selectcorreo");
-seleccionEmailRepe = document.getElementById("selectrepecorreo");
+seleccionarNombre = document.getElementById("selectnombre");
+seleccionApellido = document.getElementById("selectapellido");
 
-seleccionEmail.addEventListener("input", function () {
-    if (seleccionEmail.value.trim() !== '') {
-        seleccionEmailRepe.disabled = false; // Habilitar el campo de correo repetido
+seleccionarNombre.addEventListener("input", function () {
+    if (seleccionarNombre.value.trim() !== '') {
+        seleccionApellido.disabled = false; // Habilitar el campo de correo repetido
     } else {
-        seleccionEmailRepe.disabled = true; // Deshabilitar el campo de correo repetido
+        seleccionApellido.disabled = true; // Deshabilitar el campo de correo repetido
     }
 });
 
-const correo1 = document.getElementById("selectcorreo");
-const correo2 = document.getElementById("selectrepecorreo");
-selectrepecorreo.addEventListener("input", correoigual);
-function correoigual() {
-    if (correo1.value !== correo2.value) {
-        correo2.setCustomValidity("Las claves no son iguales");
-    } else {
-        correo2.setCustomValidity('');
-    }
-}
+
 
