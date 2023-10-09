@@ -1,0 +1,15 @@
+/* Estilo base para los campos de entrada */
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+}
+
+/* Efecto de hover cuando el puntero del mouse pasa sobre los campos de entrada */
+input[type="text"]:hover,
+textarea:hover {
+    border-color: #007bff; /* Cambia el color del borde en el hover */
+    background-color: #f0f0f0; /* Cambia el color de fondo en el hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+}
