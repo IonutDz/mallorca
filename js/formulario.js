@@ -84,4 +84,3 @@ seleccionarNombre.addEventListener("input", function () {
 });
 
 
-
