@@ -59,7 +59,7 @@ document.body.insertAdjacentHTML("afterend", multilineString);
 // Crear el elemento del pie de página
 const footer = document.createElement('footer');
 footer.style.backgroundColor = '#eee6d3';
-footer.className = "footer-bs mt-auto";
+footer.className = "footer-bs";
 // Crear el contenedor interior
 const containerInner = document.createElement('div');
 containerInner.className = 'container p-4';
