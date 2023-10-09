@@ -9,6 +9,9 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/formulario.css">
     <link rel="shortcut icon" href="/images/logo_mallorca.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
 </head>
 
 <body>
@@ -48,7 +51,7 @@
                 </div>
                 <div class="col-12">
                     <label for="selectcampoalto" class="form-label">Campo de texto más alto</label>
-                    <textarea class="form-control" id="selectcampoalto" rows="4"></textarea>
+                    <textarea class="form-control " id="selectcampoalto" rows="4"></textarea>
                 </div>
                 <div class="col-12">
                     <label for="adjuntarArchivo" class="form-label">Adjuntar archivo</label>
@@ -69,13 +72,7 @@
                 </div>
             </div>
         </form>
-        <div class="d-flex justify-content-center">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d786864.9931599183!2d2.252253711352267!3d39.61163416101983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297b8766606c129%3A0xb7eb9bff02d2ecc0!2sMallorca!5e0!3m2!1ses!2ses!4v1696407362296!5m2!1ses!2ses"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade" width="100%" height="400" style="border:0;"
-                allowfullscreen="" loading="lazy"></iframe>
-        </div>
+        <div id="map"></div>
         <br>
         <br>
     </div>

@@ -84,3 +84,12 @@ seleccionarNombre.addEventListener("input", function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    var mymap = L.map('map').setView([39.6952634, 3.0175718], 10); // Configura la vista con latitud y longitud de Mallorca
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+    }).addTo(mymap);
+
+    var marker = L.marker([39.6952634, 3.0175718]).addTo(mymap).bindPopup("Mallorca"); // Añade un marcador en la ubicación de Mallorca y un mensaje emergente
+});
