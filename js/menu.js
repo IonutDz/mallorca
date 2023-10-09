@@ -1,4 +1,4 @@
-const multilineString =
+multilineString =
   '<div class="d-flex flex-row nowrap bg-dark">'+
   '<img style="height: 50px;" class="" src="/images/logo_mallorca.png">'+
   '<h1 class="text-light">Mallorca</h1>'+
