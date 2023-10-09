@@ -13,8 +13,7 @@
 }
 .qv:hover{
     animation-name: example1;
-    width: 300px;
-    height: 300px;
+    
 }
 @keyframes example1 {
     0%   {background-color: darkgrey;}
