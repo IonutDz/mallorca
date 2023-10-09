@@ -9,7 +9,7 @@ multilineString =
   '<a class="nav-link text-light" href="/html/comida.html">pagina 1</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="#">Menu 2</a>'+
+  '<a class="nav-link text-light" href="/html/pagina2.html">Menu 2</a>'+
   '</li>'+
   '<li class="nav-item">'+
   '<a class="nav-link text-light" href="#">Menu 3</a>'+
