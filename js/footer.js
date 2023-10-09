@@ -74,7 +74,7 @@ col1.className = 'col-lg-6 col-md-12 mb-4';
 
 const h5Col1 = document.createElement('h5');
 h5Col1.className = 'mb-3 text-dark';
-h5Col1.textContent = 'footer content';
+h5Col1.textContent = 'Mallorca';
 
 const p1 = document.createElement('p');
 p1.textContent = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam, est atque cumque eum delectus sint!';
