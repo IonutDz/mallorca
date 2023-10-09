@@ -13,7 +13,6 @@
 }
 .qv:hover{
     animation-name: example1;
-    
 }
 @keyframes example1 {
     0%   {background-color: darkgrey;}
@@ -30,8 +29,10 @@ height: 400px;
 width: 900px;
 }
 .icono{
- width: 80%;
- height: 80%;
+display: block;
+margin: 0 auto;
+width: auto;
+height: 60%;
 }
 a:link, a:visited, a:active{
     text-decoration: none;
