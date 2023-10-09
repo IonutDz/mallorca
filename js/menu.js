@@ -1,4 +1,4 @@
-const multilineString =
+multilineString =
   '<div class="d-flex flex-row nowrap bg-dark">'+
   '<img style="height: 50px;" class="" src="/images/logo_mallorca.png">'+
   '<h1 class="text-light">Mallorca</h1>'+
@@ -22,7 +22,10 @@ const multilineString =
   '<button type="button" class="btn btn-light">botoia</button>'+
   '</div>'+
   '</nav>';
-document.write(multilineString);
+
+
+document.body.insertAdjacentHTML("beforebegin", multilineString);
+//document.write(multilineString);
 
 
 
