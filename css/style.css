@@ -7,19 +7,19 @@
     background-color: darkgray;
     border-radius: 50px;
     margin: 10px;
-    animation-duration: 3s;
-    transition-duration: 34s;
-    transition-delay: 5s;
+    animation-duration: 1s;
+    transition-duration: 0.5s;
+    
+    
 }
-.qv:hover{
+.option:hover{
     animation-name: example1;
 }
 @keyframes example1 {
     0%   {background-color: darkgrey;}
     25%  {background-color: rgb(91, 91, 91);}
     50%  {background-color: rgb(54, 54, 54);}
-    100% {background-image: url(/images/icono/QueVerHover.png);
-    background-size: cover;}
+   
   }
 .divprincipal{
     background-color: #EEF2F5;
