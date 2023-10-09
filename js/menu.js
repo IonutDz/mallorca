@@ -22,7 +22,10 @@ multilineString =
   '<button type="button" class="btn btn-light">botoia</button>'+
   '</div>'+
   '</nav>';
-document.write(multilineString);
+
+
+document.body.insertAdjacentHTML("beforebegin", multilineString);
+//document.write(multilineString);
 
 
 
