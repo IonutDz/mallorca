@@ -14,7 +14,7 @@ multilineString =
   '<a class="nav-link text-light" href="/html/pagina2.html">Actividades</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="">Menu 3</a>'+
+  '<a class="nav-link text-light" href="/html/menu3.html">Menu3</a>'+
   '</li>'+
   '<li class="nav-item">'+
   '<a class="nav-link text-light" href="/html/formulario.html">Reserva</a>'+
