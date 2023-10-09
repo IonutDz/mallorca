@@ -38,12 +38,12 @@ function cambiarQueComerOUT(){
 }
 function cambiarDondeIrIN(){
     document.getElementById("bdi").style.backgroundColor="Black";
-    document.getElementById("idi").src="/images/icono/DondeIrHover.png";
+    document.getElementById("idi").src="/images/icono/DondeDormirHover.png";
     document.getElementById("tdi").style.color="white";
 }
 function cambiarDondeIrOUT(){
     document.getElementById("bdi").style.backgroundColor="darkgray";
-    document.getElementById("idi").src="/images/icono/DondeIr.png";
+    document.getElementById("idi").src="/images/icono/DondeDormir.png";
     document.getElementById("tdi").style.color="black";
 }
 function cambiarResevaIN(){
