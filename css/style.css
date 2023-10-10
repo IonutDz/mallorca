@@ -111,7 +111,7 @@ a:active {
 }
 
 .arrow-container {
-    position: absolute;
+    position: relative;
     bottom: 20px; /* Ajusta la posición vertical de la flecha */
     left: 50%; /* Centra horizontalmente la flecha */
     transform: translateX(-50%); /* Centra la flecha horizontalmente */
@@ -138,20 +138,41 @@ a:active {
 
 #encabezadopg3 button {
     background-color: transparent;
-    color: #007bff;
-    border: 2px solid #007bff;
+    color: #ffffff;
+    border: 1px solid #000000;
     padding: 8px 16px;
     font-size: 20px;
     cursor: pointer;
     margin-top: 20px;
     align-self: center;
     transition: background-color 0.3s, color 0.3s;
+    animation: infinite parpadeo 0.8s;
 }
 
-#encabezadopg3 button:hover {
-    background-color: #007bff;
-    color: #fff;
+@keyframes parpadeo {
+    0%,100%{
+        background-color: transparent;
+    }
+
+    20%{
+        background-color: red;
+    }
+    
+    40%{
+        background-color: #007bff;
+    }
+
+    60%{
+        background-color: rgb(148, 148, 24);
+    }
+
+    80%{
+        background-color: purple;
+    }
+    
 }
+
+
 
 
 /* Estilos para pantallas medianas */
