@@ -1,5 +1,5 @@
-.opcion{
-    display:flex;
+.opcion {
+    display: flex;
     justify-content: center;
     align-self: center;
     height: 200px;
@@ -9,46 +9,186 @@
     margin: 10px;
     animation-duration: 1s;
     transition-duration: 0.5s;
-    
-    
+
+
 }
-.option:hover{
+
+.option:hover {
     animation-name: example1;
 }
+
 @keyframes example1 {
-    0%   {background-color: darkgrey;}
-    25%  {background-color: rgb(91, 91, 91);}
-    50%  {background-color: rgb(54, 54, 54);}
-   
-  }
-.divprincipal{
+    0% {
+        background-color: darkgrey;
+    }
+
+    25% {
+        background-color: rgb(91, 91, 91);
+    }
+
+    50% {
+        background-color: rgb(54, 54, 54);
+    }
+
+}
+
+.divprincipal {
     background-color: #EEF2F5;
 }
-.video{
-height: 400px;
-width: 900px;
+
+.video {
+    height: 400px;
+    width: 900px;
 }
-.icono{
-display: block;
-margin: 0 auto;
-width: auto;
-height: 60%;
+
+.icono {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 60%;
 }
-a:link, a:visited, a:active{
+
+a:link,
+a:visited,
+a:active {
     text-decoration: none;
-    color:black;
+    color: black;
 }
+
 @media only screen and (max-width: 800px) {
-.video{
-    height: 300px;
-    width: 700px;
-}
+    .video {
+        height: 300px;
+        width: 700px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .video{
+    .video {
         height: 200px;
         width: 500px;
+    }
+}
+
+
+#encabezadopg3 {
+    background-image: url("/images/mallorc1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#encabezadopg3 h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#encabezadopg3 p {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+#encabezadopg3 {
+    background-image: url("/images/mallorc1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh; /* Aumenta la altura de la imagen de fondo */
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.arrow-container {
+    position: absolute;
+    bottom: 20px; /* Ajusta la posición vertical de la flecha */
+    left: 50%; /* Centra horizontalmente la flecha */
+    transform: translateX(-50%); /* Centra la flecha horizontalmente */
+}
+
+#flecha {
+    width: 150px; /* Ajusta el ancho de la flecha */
+    height: 150px; /* Ajusta la altura de la flecha */
+    transform: rotate(180deg); /* Rotación de 90 grados (puedes ajustar el ángulo) */
+    transition: transform 0.3s; /* Transición suave para el efecto hover */
+}
+
+#encabezadopg3 h1 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#encabezadopg3 p {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+#encabezadopg3 button {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    padding: 8px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#encabezadopg3 button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+/* Estilos para pantallas medianas */
+@media screen and (max-width: 768px) {
+    #encabezadopg3 {
+        padding: 50px 0; /* Espaciado reducido en pantallas medianas */
+    }
+
+    #encabezadopg3 h1 {
+        font-size: 36px; /* Reducción del tamaño de fuente */
+    }
+
+    #encabezadopg3 p {
+        font-size: 20px; /* Reducción del tamaño de fuente */
+    }
+
+    #encabezadopg3 button {
+        font-size: 18px; /* Reducción del tamaño de fuente */
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 576px) {
+    #encabezadopg3 {
+        padding: 30px 0; /* Espaciado aún más reducido en pantallas pequeñas */
+    }
+
+    #encabezadopg3 h1 {
+        font-size: 28px; /* Reducción adicional del tamaño de fuente */
+    }
+
+    #encabezadopg3 p {
+        font-size: 16px; /* Reducción adicional del tamaño de fuente */
+    }
+
+    #encabezadopg3 button {
+        font-size: 14px; /* Reducción adicional del tamaño de fuente */
     }
 }
 
