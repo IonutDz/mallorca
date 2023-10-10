@@ -119,7 +119,7 @@ a:active {
 
 #flecha {
     width: 150px; /* Ajusta el ancho de la flecha */
-    height: 150px; /* Ajusta la altura de la flecha */
+    height: 120px; /* Ajusta la altura de la flecha */
     transform: rotate(180deg); /* Rotación de 90 grados (puedes ajustar el ángulo) */
     transition: transform 0.3s; /* Transición suave para el efecto hover */
 }
@@ -127,7 +127,7 @@ a:active {
 #encabezadopg3 h1 {
     color: #fff;
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #encabezadopg3 p {
