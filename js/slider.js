@@ -41,3 +41,5 @@ const walk = x - startX;
 carousel.scrollLeft = scrollLeft - walk;
 
 });
+
+
