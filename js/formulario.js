@@ -93,3 +93,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var marker = L.marker([39.6952634, 3.0175718]).addTo(mymap).bindPopup("Mallorca"); // Añade un marcador en la ubicación de Mallorca y un mensaje emergente
 });
+
