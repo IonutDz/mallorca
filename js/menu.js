@@ -20,9 +20,6 @@ multilineString =
   '<a class="nav-link text-light" href="/html/formulario.html">Reserva</a>'+
   '</li>'+
   '</ul>'+
-  /*'<div class="col-1 d-flex justify-content-center">'+
-  '<button type="button" class="btn btn-light">botoia</button>'+
-  '</div>'+*/
   '</nav>';
 
 
