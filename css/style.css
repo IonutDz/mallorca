@@ -139,7 +139,8 @@ a:active {
 #encabezadopg3 button {
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid #000000;
+    border: 1px solid #9ccaff;
+    border-radius: 0%;
     padding: 8px 16px;
     font-size: 20px;
     cursor: pointer;
