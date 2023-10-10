@@ -21,3 +21,39 @@ textarea:hover {
     
     transition: background-color 0.3s; /* Agrega una transición de color de fondo de 0.3 segundos */
 }
+
+/* Estilo por defecto para los elementos de formulario */
+.form-control {
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: border-color 0.3s;
+}
+
+/* Estilo para los elementos enfocados */
+.form-control:focus {
+    outline: none; /* Quita el contorno predeterminado del navegador */
+    box-shadow: 0 0 55px rgba(106, 0, 255, 0.5); /* Agrega una sombra alrededor del elemento enfocado */
+}
+
+/* Efecto de transición suave en botones */
+.btn {
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #007bff; /* Cambia el color de fondo en el hover */
+    color: #fff; /* Cambia el color del texto en el hover */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño en el hover */
+}
+
+/* Cambia el fondo del campo de texto enfocado */
+.form-control:focus {
+    background-color: #ffffff; /* Cambia el color de fondo al enfocar */
+}
+
+/* Estilo personalizado para etiquetas */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
