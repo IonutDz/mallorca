@@ -7,8 +7,9 @@
 }
 
 .carousel img {
-    width: 70%;
-    height: 150px;
+    width: 70.5%;
+    height: 200px;
+    border-radius: 0%;
     align-self: center;
     scroll-snap-align: start;
 }
