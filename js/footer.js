@@ -67,10 +67,16 @@ containerInner.className = 'container p-4';
 // Crear la fila
 const row = document.createElement('div');
 row.className = 'row';
-
+// Columan para imagen
+const colimg= document.createElement('div');
+colimg.className = " col-lg-1 col-md-1";
+const img = document.createElement('img');
+img.src = '/images/logo_mallorca.png';
+img.style.height = '50px';
+colimg.appendChild(img);
 // Columna 1
 const col1 = document.createElement('div');
-col1.className = 'col-lg-6 col-md-12 mb-4';
+col1.className = 'col-lg-6 col-md-11 mb-4';
 
 const h5Col1 = document.createElement('h5');
 h5Col1.className = 'mb-3 text-dark';
@@ -110,11 +116,11 @@ col2.appendChild(ul);
 
 // Columna 3
 const col3 = document.createElement('div');
-col3.className = 'col-lg-3 col-md-6 mb-4';
+col3.className = 'col-lg-2 col-md-6 mb-4';
 
 const h5Col3 = document.createElement('h5');
 h5Col3.className = 'mb-1 text-dark';
-h5Col3.textContent = 'opening hours';
+h5Col3.textContent = 'Horario de contacto';
 
 const table = document.createElement('table');
 table.className = 'table';
@@ -123,8 +129,8 @@ table.style.borderColor = '#666';
 const tbody = document.createElement('tbody');
 
 const hours = [
-  { day: 'Mon - Fri:', time: '8am - 9pm' },
-  { day: 'Sat - Sun:', time: '8am - 1am' }
+  { day: 'Mon - Fri:', time: '08:00 - 22:00' },
+  { day: 'Sat - Sun:', time: '08:00 - 23:30' }
 ];
 
 hours.forEach(item => {
@@ -138,11 +144,22 @@ hours.forEach(item => {
   tbody.appendChild(tr);
 });
 
+const tel = document.createElement('a');
+const telnum = document.createElement('a');
+tel.className = 'mb-1 text-dark text-decoration-none text-center';
+tel.textContent = 'Teléfono: ';
+telnum.className = 'text-dark text-reset text-decoration-underline text-center';
+telnum.textContent = "666666666"
+telnum.href = 'tel: +34666666666';
+tel.appendChild(telnum);
+
 table.appendChild(tbody);
 col3.appendChild(h5Col3);
 col3.appendChild(table);
+col3.appendChild(tel);
 
 // Agregar columnas a la fila
+row.appendChild(colimg);
 row.appendChild(col1);
 row.appendChild(col2);
 row.appendChild(col3);
@@ -160,6 +177,4 @@ document.body.appendChild(footer);
 
 
 
-img = document.createElement('img');
-img.src = '/images/logo_mallorca.png';
-img.style.height = '50px';
+

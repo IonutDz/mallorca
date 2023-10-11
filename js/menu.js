@@ -1,23 +1,21 @@
 multilineString =
-  '<div class=" bg-dark">'+
-  '<a href="/index.html" class="d-flex flex-row nowrap text-decoration-none">'+
+  '<div class=" bg-dark d-flex flex-column flex-lg-row flex-md-row">'+
+  '<a href="/index.html" class="d-flex flex-row nowrap text-decoration-none col-lg-1 col-md-1 col-12">'+
   '<img style="height: 50px;" class="" src="/images/logo_mallorca.png">'+
-  '<h1 class="text-light ">Mallorca</h1>'+
+  '<p class="text-light">Mallorca</p>'+
   '</a>'+
-  '</div>'+
-  '<nav class="d-flex flex-row bg-dark">'+
-  '<ul class="nav justify-content-center d-flex flex-column flex-lg-row flex-md-row align-content-center col-12">'+
+  '<ul class="nav justify-content-center d-flex flex-column flex-lg-row flex-md-row align-content-center col-lg-11 col-md-11 col-12">'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/comida.html">Comida</a>'+
+  '<a class="nav-link text-light" href="/html/comida.html">COMIDA</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/pagina2.html">Actividades</a>'+
+  '<a class="nav-link text-light" href="/html/pagina2.html">ACTIVIDADES</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/menu3.html">Menu3</a>'+
+  '<a class="nav-link text-light" href="/html/menu3.html">DESCUBRE</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/formulario.html">Reserva</a>'+
+  '<a class="nav-link text-light" href="/html/formulario.html">RESERVA</a>'+
   '</li>'+
   '</ul>'+
   '</nav>';
