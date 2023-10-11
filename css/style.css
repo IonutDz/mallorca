@@ -218,3 +218,8 @@ a:active {
     background-color:whitesmoke;
     color: #333 !important;
 }
+
+.nav > li > a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
