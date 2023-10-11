@@ -1,3 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
 .opcion {
     display: flex;
     justify-content: center;
@@ -82,6 +89,7 @@ a:active {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 #encabezadopg3 h1 {
@@ -122,6 +130,7 @@ a:active {
     height: 120px; /* Ajusta la altura de la flecha */
     transform: rotate(180deg); /* Rotación de 90 grados (puedes ajustar el ángulo) */
     transition: transform 0.3s; /* Transición suave para el efecto hover */
+
 }
 
 #encabezadopg3 h1 {
@@ -148,6 +157,7 @@ a:active {
     align-self: center;
     transition: background-color 0.3s, color 0.3s;
     animation: infinite parpadeo 0.8s;
+    z-index: 10;
 }
 
 @keyframes parpadeo {
