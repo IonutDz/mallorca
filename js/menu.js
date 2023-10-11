@@ -1,6 +1,6 @@
 multilineString =
   '<div class=" bg-dark">'+
-  '<a href="/index.html" class="d-flex flex-row nowrap text-decoration-none">'+
+  '<a href="/index.html" class="d-flex flex-row nowrap text-decoration-none col-2">'+
   '<img style="height: 50px;" class="" src="/images/logo_mallorca.png">'+
   '<h1 class="text-light ">Mallorca</h1>'+
   '</a>'+
@@ -11,7 +11,7 @@ multilineString =
   '<a class="nav-link text-light" href="/html/comida.html">COMIDA</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light " href="/html/pagina2.html">Actividades</a>'+
+  '<a class="nav-link text-light" href="/html/pagina2.html">ACTIVIDADES</a>'+
   '</li>'+
   '<li class="nav-item">'+
   '<a class="nav-link text-light" href="/html/menu3.html">DESCUBRE</a>'+
