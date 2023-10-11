@@ -6,6 +6,9 @@ multilineString =
   '</a>'+
   '<ul class="nav justify-content-center d-flex flex-column flex-lg-row align-content-center col-lg-9 col-12">'+
   '<li class="nav-item">'+
+  '<a class="nav-link text-light" href="/index.html">INICIO</a>'+
+  '</li>'+
+  '<li class="nav-item">'+
   '<a class="nav-link text-light" href="/html/comida.html">COMIDA</a>'+
   '</li>'+
   '<li class="nav-item">'+
