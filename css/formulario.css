@@ -1,25 +1,33 @@
 /* Estilo base para los campos de entrada */
 input[type="text"],
+select,
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
 textarea {
     padding: 10px;
     border: 1px solid #ccc;
-    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+    transition: all 0.3s ease;
 }
 
 /* Efecto de hover cuando el puntero del mouse pasa sobre los campos de entrada */
 input[type="text"]:hover,
-textarea:hover {
-    border-color: #00a6ff; /* Cambia el color del borde en el hover */
-    background-color: #eff1f4; /* Cambia el color de fondo en el hover */
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1); /* Agrega una sombra suave */
+textarea:hover,
+select:hover {
+    border-color: #00a6ff;
+    background-color: #eff1f4;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
 }
 
 #map {
-    width: 70%; /* Ajusta el ancho del mapa al 70% del contenedor */
+    width: 70%;
     height: 400px;
-    margin: 0 auto; /* Centra el mapa horizontalmente */
-    
-    transition: background-color 0.3s; /* Agrega una transición de color de fondo de 0.3 segundos */
+    margin: 0 auto;
+    transition: background-color 0.3s;
 }
 
 /* Estilo por defecto para los elementos de formulario */
@@ -31,8 +39,8 @@ textarea:hover {
 
 /* Estilo para los elementos enfocados */
 .form-control:focus {
-    outline: none; /* Quita el contorno predeterminado del navegador */
-    box-shadow: 0 0 55px rgba(106, 0, 255, 0.5); /* Agrega una sombra alrededor del elemento enfocado */
+    outline: none;
+    box-shadow: 0 0 55px rgba(106, 0, 255, 0.5);
 }
 
 /* Efecto de transición suave en botones */
@@ -41,14 +49,14 @@ textarea:hover {
 }
 
 .btn:hover {
-    background-color: #007bff; /* Cambia el color de fondo en el hover */
-    color: #fff; /* Cambia el color del texto en el hover */
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño en el hover */
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.05);
 }
 
 /* Cambia el fondo del campo de texto enfocado */
 .form-control:focus {
-    background-color: #ffffff; /* Cambia el color de fondo al enfocar */
+    background-color: #ffffff;
 }
 
 /* Estilo personalizado para etiquetas */
@@ -56,4 +64,3 @@ label {
     font-weight: bold;
     color: #333;
 }
-
