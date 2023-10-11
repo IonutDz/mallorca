@@ -2,7 +2,7 @@ multilineString =
   '<div class=" bg-dark d-flex flex-column flex-lg-row flex-md-row">'+
   '<a href="/index.html" class="d-flex flex-row nowrap text-decoration-none col-lg-1 col-md-1 col-12">'+
   '<img style="height: 50px;" class="" src="/images/logo_mallorca.png">'+
-  '<p class="text-light">Mallorca</p>'+
+  '<p class="text-light" id="titulo">Mallorca</p>'+
   '</a>'+
   '<ul class="nav justify-content-center d-flex flex-column flex-lg-row flex-md-row align-content-center col-lg-11 col-md-11 col-12">'+
   '<li class="nav-item">'+
