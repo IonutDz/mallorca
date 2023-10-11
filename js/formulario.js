@@ -94,3 +94,34 @@ document.addEventListener("DOMContentLoaded", function () {
     var marker = L.marker([39.6952634, 3.0175718]).addTo(mymap).bindPopup("Mallorca"); // Añade un marcador en la ubicación de Mallorca y un mensaje emergente
 });
 
+// Agrega un evento change al campo de entrada de archivo
+seleccionAdjuntar.addEventListener("change", function () {
+    if (!validarTipoArchivo()) {
+        // Si el archivo no es válido, muestra un mensaje de error
+        alert("El archivo seleccionado no es válido. Debes elegir un archivo PDF o una imagen (JPG, JPEG, PNG, GIF).");
+        // Limpia el campo de entrada de archivo
+        seleccionAdjuntar.value = "";
+    }
+});
+
+// Función para validar el tipo de archivo
+function validarTipoArchivo() {
+    // Obtiene el archivo seleccionado
+    const archivo = seleccionAdjuntar.files[0];
+
+    // Si no se seleccionó ningún archivo, no hay validación necesaria
+    if (!archivo) {
+        return true;
+    }
+
+    // Obtiene la extensión del archivo
+    const extension = archivo.name.split(".").pop().toLowerCase();
+
+    // Define las extensiones permitidas (PDF, JPG, JPEG, PNG, GIF)
+    const extensionesPermitidas = ["pdf", "jpg", "jpeg", "png", "gif"];
+
+    // Comprueba si la extensión del archivo está en la lista de extensiones permitidas
+    return extensionesPermitidas.includes(extension);
+}
+
+
