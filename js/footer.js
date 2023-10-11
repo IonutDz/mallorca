@@ -138,11 +138,14 @@ hours.forEach(item => {
   tbody.appendChild(tr);
 });
 
-
-const tel = document.createElement('h6');
-tel.className = 'mb-1 text-dark justify-content-center';
-tel.textContent = "tel:+34666666666"
-
+const tel = document.createElement('a');
+const telnum = document.createElement('a');
+tel.className = 'mb-1 text-dark text-decoration-none text-center';
+tel.textContent = 'Teléfono: ';
+telnum.className = 'text-dark text-reset text-decoration-underline text-center';
+telnum.textContent = "666666666"
+telnum.href = 'tel: +34666666666';
+tel.appendChild(telnum);
 
 table.appendChild(tbody);
 col3.appendChild(h5Col3);
