@@ -1,19 +1,11 @@
-var actividades = [
-    "Visita a las Cuevas del Hams",
-    "Avistamiento de delfines",
-    "Crucero en Catamarán",
-    "Basílica de Santa María",
-    "Castillo de Bellver",
-    "Puerto de Sóller",
-    "La Cartuja de Valldemossa",
-    "Sierra de Tramontana"
-  ];
-  
+
+
   document.addEventListener("DOMContentLoaded", function () {
     var boton = document.querySelector(".btn-pulsar"); // Selecciona el botón por su clase "btn-pulsar"
     boton.addEventListener("click", function () {
-        var actividadRandom = actividades[Math.floor(Math.random() * actividades.length)];
-        crearActividad
+        var actividadKeys = Object.keys(actividades);
+        var actividadRandom = Math.floor(Math.random() * actividadKeys.length); // Genera un número aleatorio entre 0 y el número de inputs 
+        crearActividad(actividadKeys[actividadRandom]);
     });
   });
 

@@ -1,59 +1,59 @@
 var ruta;
 var texto;
-
 var inputs = document.querySelectorAll('input');
 
+const actividades = {
+    "cuevas de hams": {
+        ruta: '/images/cuevas del hams.jpg',
+        texto: 'Cuevas de hans'
+    },
+    "delfines": {
+        ruta: '/images/delfines.jpg',
+        texto: 'Avistamiento de delfines'
+    },
+    "crucero en catamarán": {
+        ruta: '/images/catamarán.jpg',
+        texto: 'Crucero en catamarán'
+    },
+    "santa maría": {
+        ruta: '/images/santa_maria.jpg',
+        texto: 'Catedral de Santa María'
+    },
+    "bellver": {
+        ruta: '/images/bellver.jpg',
+        texto: 'Castillo de Bellver'
+    },
+    "Sóller": {
+        ruta: '/images/Sóller.jpg',
+        texto: 'Ferrocarril de Sóller'
+    },
+    "valldemosa": {
+        ruta: '/images/valldemosa.jpg',
+        texto: 'Valldemosa'
+    },
+    "tramontana": {
+        ruta: '/images/Tramontana.jpg',
+        texto: 'Sierra de Tramontana'
+    }
+};
+
+
+
+
 inputs.forEach(function (input) {
-    input.addEventListener("click", function() {
+    input.addEventListener("click", function () {
         crearActividad(input.value);
     });
 });
 
+
 function crearActividad(valor) {
-   
-    switch (valor) {
-        case "cuevas de hams":
-            ruta = '/images/cuevas del hams.jpg';
-            texto = 'Cuevas de hans';
-            break;
-
-        case "delfines":
-            ruta = '/images/delfines.jpg';
-            texto = 'Avistamiento de delfines';
-            break;
-
-        case "crucero en catamarán":
-            ruta = '/images/catamarán.jpg';
-            texto = 'Crucero en catamarán';
-            break;
-
-        case "santa maría":
-            ruta = '/images/santa_maria.jpg';
-            texto = 'Catedrall de santa María';
-            break;
-
-        case "bellver":
-            ruta = '/images/bellver.jpg';
-            texto = 'Castillo de Bellver';
-            break;
-
-        case "Sóller":
-            ruta = '/images/Sóller.jpg';
-            texto = 'Ferrocarril de Sóller';
-            break;
-
-        case "valldemosa":
-            ruta = '/images/valldemosa.jpg';
-            texto = 'Valldemosa';
-            break;
-
-        case "tramontana":
-            ruta = '/images/Tramontana.jpg';
-            texto = 'Sierra de Tramontana';
-            break;
-
+    const actividad = actividades[valor];
+    if (actividades[valor]) {
+        console.log(actividad);
+        ruta = actividad.ruta;
+        texto = actividad.texto;
     }
-
     multilineString = '<!DOCTYPE html>' +
         '<html>' +
         '<head>' +
@@ -80,5 +80,11 @@ function crearActividad(valor) {
 
     var ventana = window.open();
     ventana.document.write(multilineString);
+}
+
+var inputs = document.querySelectorAll('input');
+function contarInputs() {
+    var cantidadDeInputs = inputs.length;
+    console.log('Número de inputs en la página: ' + cantidadDeInputs);
 }
 
