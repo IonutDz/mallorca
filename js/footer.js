@@ -114,7 +114,7 @@ col3.className = 'col-lg-3 col-md-6 mb-4';
 
 const h5Col3 = document.createElement('h5');
 h5Col3.className = 'mb-1 text-dark';
-h5Col3.textContent = 'opening hours';
+h5Col3.textContent = 'Horario de contacto';
 
 const table = document.createElement('table');
 table.className = 'table';
@@ -138,9 +138,16 @@ hours.forEach(item => {
   tbody.appendChild(tr);
 });
 
+
+const tel = document.createElement('h6');
+tel.className = 'mb-1 text-dark justify-content-center';
+tel.textContent = "tel:+34666666666"
+
+
 table.appendChild(tbody);
 col3.appendChild(h5Col3);
 col3.appendChild(table);
+col3.appendChild(tel);
 
 // Agregar columnas a la fila
 row.appendChild(col1);
