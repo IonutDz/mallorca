@@ -213,3 +213,8 @@ a:active {
         font-size: 14px; /* Reducción adicional del tamaño de fuente */
     }
 }
+
+.nav > li > a:hover{
+    background-color:whitesmoke;
+    color: #333 !important;
+}
