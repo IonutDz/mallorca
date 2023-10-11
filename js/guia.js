@@ -14,7 +14,9 @@ edii.addEventListener("mouseout", cambiarDondeIrOUT);
 const eri = document.getElementById("bhr");
 eri.addEventListener("mouseover", cambiarResevaIN);
 eri.addEventListener("mouseout", cambiarResevaOUT);
-
+const di =document.getElementById("bdr");
+di.addEventListener("mouseover", cambiarDescubreIN);
+di.addEventListener("mouseout", cambiarDescubreOUT);
 function cambiarQueVerIN(){
     document.getElementById("bqv").style.backgroundColor="Black";
     document.getElementById("iqv").src="/images/icono/QueVerHover.png";
@@ -55,4 +57,14 @@ function cambiarResevaOUT(){
     document.getElementById("bhr").style.backgroundColor="darkgray";
     document.getElementById("ihr").src="/images/icono/Reservar.png";
     document.getElementById("thr").style.color="black";
+}
+function cambiarDescubreIN(){
+    document.getElementById("bdr").style.backgroundColor="Black";
+    document.getElementById("idr").src="/images/icono/descubreHover.png";
+    document.getElementById("tdr").style.color="white";
+}
+function cambiarDescubreOUT(){
+    document.getElementById("bdr").style.backgroundColor="darkgray";
+    document.getElementById("idr").src="/images/icono/descubre.png";
+    document.getElementById("tdr").style.color="black";
 }

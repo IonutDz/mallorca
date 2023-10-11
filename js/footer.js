@@ -58,7 +58,7 @@ document.body.insertAdjacentHTML("afterend", multilineString);
 
 // Crear el elemento del pie de página
 const footer = document.createElement('footer');
-footer.style.backgroundColor = '#eee6d3';
+footer.style.backgroundColor = '#C9C9C9';
 footer.className = "footer-bs mt-auto w-100";
 // Crear el contenedor interior
 const containerInner = document.createElement('div');
@@ -69,21 +69,21 @@ const row = document.createElement('div');
 row.className = 'row';
 // Columan para imagen
 const colimg= document.createElement('div');
-colimg.className = " col-lg-1 col-md-1";
+colimg.className = " col-lg-2 col-md-3";
 const img = document.createElement('img');
 img.src = '/images/logo_mallorca.png';
-img.style.height = '50px';
+img.style.height = '150px';
 colimg.appendChild(img);
 // Columna 1
 const col1 = document.createElement('div');
-col1.className = 'col-lg-6 col-md-11 mb-4';
+col1.className = 'col-lg-4 col-md-9 mb-4';
 
 const h5Col1 = document.createElement('h5');
 h5Col1.className = 'mb-3 text-dark';
 h5Col1.textContent = 'Mallorca';
 
 const p1 = document.createElement('p');
-p1.textContent = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam voluptatem veniam, est atque cumque eum delectus sint!';
+p1.textContent = 'Deliciosamente amable y dotada de un punto de salvaje majestuosidad, Mallorca es una isla con un color especial.';
 
 col1.appendChild(h5Col1);
 col1.appendChild(p1);
@@ -94,19 +94,19 @@ col2.className = 'col-lg-3 col-md-6 mb-4';
 
 const h5Col2 = document.createElement('h5');
 h5Col2.className = 'mb-3 text-dark';
-h5Col2.textContent = 'links';
+h5Col2.textContent = 'Contactanos en:';
 
 const ul = document.createElement('ul');
 ul.className = 'list-unstyled mb-0';
 
-const links = ['FAQ', 'Classes', 'Pricing', 'Safety'];
+const links = ['Facebook', 'Instagram', 'Twitter', 'MySpace'];
 
 links.forEach(linkText => {
   const li = document.createElement('li');
   const a = document.createElement('a');
   a.href = '#!';
   a.textContent = linkText;
-  a.style.color = '#4f4f4f';
+  a.style.color = '#2C2B2B';
   li.appendChild(a);
   ul.appendChild(li);
 });
@@ -116,7 +116,7 @@ col2.appendChild(ul);
 
 // Columna 3
 const col3 = document.createElement('div');
-col3.className = 'col-lg-2 col-md-6 mb-4';
+col3.className = 'col-lg-3 col-md-6 mb-4';
 
 const h5Col3 = document.createElement('h5');
 h5Col3.className = 'mb-1 text-dark';
