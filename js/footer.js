@@ -156,3 +156,10 @@ footer.appendChild(containerInner);
 
 // Agregar contenedor principal al documento
 document.body.appendChild(footer);
+
+
+
+
+img = document.createElement('img');
+img.src = '/images/logo_mallorca.png';
+img.style.height = '50px';
