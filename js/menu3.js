@@ -1,5 +1,4 @@
 
-
   document.addEventListener("DOMContentLoaded", function () {
     var boton = document.querySelector(".btn-pulsar"); // Selecciona el botón por su clase "btn-pulsar"
     boton.addEventListener("click", function () {
