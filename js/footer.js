@@ -123,8 +123,8 @@ table.style.borderColor = '#666';
 const tbody = document.createElement('tbody');
 
 const hours = [
-  { day: 'Mon - Fri:', time: '8am - 9pm' },
-  { day: 'Sat - Sun:', time: '8am - 1am' }
+  { day: 'Mon - Fri:', time: '08:00 - 22:00' },
+  { day: 'Sat - Sun:', time: '08:00 - 23:30' }
 ];
 
 hours.forEach(item => {
