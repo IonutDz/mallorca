@@ -1,0 +1,177 @@
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+
+.card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo para la imagen de la tarjeta */
+.card-img-top {
+    height: 80%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.3s ease-out;
+    z-index: 3;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    overflow-y: auto;
+    padding: 10px;
+    width: 100%;
+    height: 78%;
+    text-align: center;
+
+}
+
+
+.card-title {
+    position: relative;
+    z-index: 2;
+    font-size: 1.5vw;
+}
+
+.card:hover .hover-text {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+body {
+    background-color: #EEF2F5;
+}
+
+
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel img {
+    -moz-user-drag: none;
+    -webkit-user-drag: none;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    z-index: 10;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* Estilos para dispositivos con un ancho máximo de 767px (pantallas pequeñas) */
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        justify-content: center;
+    }
+
+
+
+    .carousel-inner .carousel-item.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        height: 200px;
+        /* Establece el tamaño deseado para las tarjetas en este caso 25% para 4 tarjetas por fila */
+    }
+
+
+
+    .card-img-top {
+        height: 80%;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+    }
+
+    .card-body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hover-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: scaleY(0);
+        transform-origin: top;
+        opacity: 0;
+        transition: transform 0.5s, opacity 0.3s ease-out;
+        z-index: 3;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.9);
+        overflow-y: auto;
+        padding: 10px;
+        width: 100%;
+        height: 78%;
+        text-align: center;
+    }
+
+    .card-title {
+        position: relative;
+        z-index: 2;
+        font-size: 2vw;
+    }
+}
+
+/* Estilos para dispositivos con un ancho mínimo de 768px (pantallas medianas y grandes) */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+
+   
+
+}
+
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
