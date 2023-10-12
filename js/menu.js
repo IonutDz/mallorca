@@ -6,19 +6,19 @@ multilineString =
   '</a>'+
   '<ul class="nav justify-content-center d-flex flex-column flex-lg-row align-content-center col-lg-9 col-12">'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/index.html">INICIO</a>'+
+  '<a class="nav-link text-light" href="/index.html">Inicio</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/comida.html">COMIDA</a>'+
+  '<a class="nav-link text-light" href="/html/comida.html">Comida</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/pagina2.html">ACTIVIDADES</a>'+
+  '<a class="nav-link text-light" href="/html/pagina2.html">Actividades</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/menu3.html">DESCUBRE</a>'+
+  '<a class="nav-link text-light" href="/html/menu3.html">Descubre</a>'+
   '</li>'+
   '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/formulario.html">RESERVA</a>'+
+  '<a class="nav-link text-light" href="/html/formulario.html">Reserva</a>'+
   '</li>'+
   '</ul>'+
   '</nav>';
