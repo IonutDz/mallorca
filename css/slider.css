@@ -12,13 +12,15 @@
     align-self: center;
     scroll-snap-align: start;
 }
+
 .card-body {
     max-height: 150px;
     overflow: hidden;
     text-align: center;
 }
 
-.carousel-control-next, .carousel-control-prev{
+.carousel-control-next,
+.carousel-control-prev {
     opacity: 0.1;
     background: rgba(0, 0, 0, 0.5);
 
@@ -43,21 +45,22 @@
     background-color: blue;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     bottom: -15px;
 }
 
 
 
-.card-body > p {
-   width: 100%;
-   text-overflow: ellipsis;
-   white-space: nowrap;
-   overflow: hidden;
+.card-body>p {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
     position: absolute;
     top: 40%;
     bottom: 0;
