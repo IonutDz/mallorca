@@ -1,29 +1,35 @@
-multilineString =
-  '<div class=" bg-dark d-flex flex-column flex-lg-row align-items-center">'+
-  '<a href="/index.html" class="d-flex flex-row nowrap text-decoration-none col-lg-2 col-12 justify-content-center">'+
-  '<img style="height: 50px;" class="" src="/images/logo_mallorca.png">'+
-  '<p class="text-light" id="titulo">Mallorca</p>'+
-  '</a>'+
-  '<ul class="nav justify-content-center d-flex flex-column flex-lg-row align-content-center col-lg-9 col-12">'+
-  '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/index.html">Inicio</a>'+
-  '</li>'+
-  '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/comida.html">Comida</a>'+
-  '</li>'+
-  '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/pagina2.html">Actividades</a>'+
-  '</li>'+
-  '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/menu3.html">Descubre</a>'+
-  '</li>'+
-  '<li class="nav-item">'+
-  '<a class="nav-link text-light" href="/html/formulario.html">Reserva</a>'+
-  '</li>'+
-  '</ul>'+
-  '</nav>';
+var multilineString = `
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a href="/index.html" class="navbar-brand d-flex align-items-center text-light">
+            <img style="height: 50px; width: 50px;" src="/images/logo_mallorca.png" alt="logo" loading="eager">
+            <span class="my-0" id="titulo">Mallorca</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/html/comida.html">Comida</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/html/pagina2.html">Actividades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/html/menu3.html">Descubre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/html/formulario.html">Reserva</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+`;
 
 document.body.insertAdjacentHTML("beforebegin", multilineString);
-//document.write(multilineString);
-
