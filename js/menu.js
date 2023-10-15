@@ -18,6 +18,9 @@ var multilineString = `
                     <a class="nav-link text-light" href="/html/comida.html">Comida</a>
                 </li>
                 <li class="nav-item">
+                <a class="nav-link text-light" href="/html/hoteles.html">Dormir</a>
+            </li>
+                <li class="nav-item">
                     <a class="nav-link text-light" href="/html/pagina2.html">Actividades</a>
                 </li>
                 <li class="nav-item">
