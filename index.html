@@ -60,6 +60,11 @@
                 <img id="ihr" class="icono" src="/images/icono/Reservar.png">
                 <span id="thr">HACER RESERVA</span>
             </a>
+            <a id="bus" class="link col-lg-3 col-md-6 opcion flex-column justify-content-center text-center"
+                href="#transportes">
+                <img id="busi" class="icono" src="/images/icono/Bus.png">
+                <span id="bust">TRANSPORTE</span>
+            </a>
 
         </div>
 
@@ -102,76 +107,73 @@
             </div>
         </div>
 
-        <ul class="listrans">
+        <ul class="listrans" id="transportes">
             <h1>Formas de moverse</h1>
-            <ol class="listrans">
-                <h5>Autobús</h5>
-                <li>
-                    <p>
-                        Los autobuses de Mallorca son la opción más económica para moverse por la isla.
-                        Si no disponéis de coche de alquiler, podéis utilizar
-                        los autobuses para desplazaros a través de gran parte de los pueblos, ciudades, playas y
-                        calas de la
-                        isla.</p>
-                </li>
-            </ol>
-            <ol class="listrans">
-                <h5>Coche de alquiler</h5>
-                <li>
-                    <p>
-                        Alquilar un coche en Mallorca es una de las mejores opciones para desplazarse por la isla.
-                        Gracias a la geografía de Mallorca podréis visitar todos sus rincones de una manera cómoda y
-                        sencilla.</p>
-                </li>
-            </ol>
-            <ol class="listrans">
-                <h5>Coche de alquiler</h5>
-                <li>
-                    <p>Los taxis en Mallorca son una buena forma para desplazarse con comodidad por ciudades como
-                        Palma,
-                        pero para moverse a través del resto de la isla es recomendable hacerlo en autobús o bien
-                        utilizando
-                        un coche de alquiler</p>
-                </li>
-            </ol>
-            <ol class="listrans">
-                <h5> Ferry</h5>
-                <li>
-                    <p> ferry de Mallorca es uno de los transportes más utilizados en la isla para desplazarse hasta
-                        pequeñas playas y calas. Si no se dispone de un coche de alquiler,
-                        es una de las mejores opciones para visitar algunos lugares de la isla.</p>
-                </li>
-            </ol>
-            <ol class="listrans">
-                <h5>Autobús turístico</h5>
+            <details open>
+                <summary>
+                    Autobús
+                </summary>
+                <p>
+                    Los autobuses de Mallorca son la opción más económica para moverse por la isla. Si no disponéis de
+                    coche de alquiler, podéis utilizar los autobuses para desplazaros a través de gran parte de los
+                    pueblos, ciudades, playas y calas de la isla.
+                </p>
+            </details>
 
-                <li>El autobús turístico de Palma de Mallorca es una de las mejores maneras de descubrir los
-                    principales
-                    monumentos y atracciones de la ciudad.
-                    Desde este vehículo podréis tener una vista privilegiada de la ciudad durante todo el recorrido.
-                </li>
-            </ol>
-            <ol class="listrans">
-                <h5>Metro de Palma de Mallorca</h5>
-                <li>
-                    <p>El metro de Palma es un sistema rápido y eficaz para moverse no solo por la capital de
-                        Mallorca,
-                        sino que también resulta una opción a tener en cuenta si pensáis desplazaros hasta otros
-                        puntos más
-                        alejados de la isla.
-                </li>
-            </ol>
-        </ul>
+            <details>
+                <summary>Coche de alquiler</summary>
+                <p>
+                    Alquilar un coche en Mallorca es una de las mejores opciones para desplazarse por la isla. Gracias a
+                    la geografía de Mallorca podréis visitar todos sus rincones de una manera cómoda y sencilla.
+                </p>
+            </details>
 
-        <div class="container row justify-content-center mt-5 mb-5">
-            <iframe class="video" src="https://www.youtube.com/embed/PzsH4tQjqoI"
-                title="Sube y déjate llevar · 1912 · FERROCARRIL DE SÓLLER" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-        </div>
-        <script src="/js/guia.js"></script>
-        <script src="/js/footer.js"></script>
-        <script src="/js/bootstrap.bundle.min.js"></script>
+            <details>
+                <summary>Taxis</summary>
+                <p>
+                    Los taxis en Mallorca son una buena forma para desplazarse con comodidad por ciudades como Palma,
+                    pero para moverse a través del resto de la isla es recomendable hacerlo en autobús o bien utilizando
+                    un coche de alquiler.
+                </p>
+            </details>
+
+            <details>
+                <summary>Ferry</summary>
+                <p>
+                    El ferry de Mallorca es uno de los transportes más utilizados en la isla para desplazarse hasta
+                    pequeñas playas y calas. Si no se dispone de un coche de alquiler, es una de las mejores opciones
+                    para visitar algunos lugares de la isla.
+                </p>
+            </details>
+
+            <details>
+                <summary>Autobús turístico</summary>
+                <p>
+                    El autobús turístico de Palma de Mallorca es una de las mejores maneras de descubrir los principales
+                    monumentos y atracciones de la ciudad. Desde este vehículo podréis tener una vista privilegiada de
+                    la ciudad durante todo el recorrido.
+                </p>
+            </details>
+
+            <details>
+                <summary>Metro de Palma de Mallorca</summary>
+                <p>
+                    El metro de Palma es un sistema rápido y eficaz para moverse no solo por la capital de Mallorca,
+                    sino que también resulta una opción a tener en cuenta si pensáis desplazaros hasta otros puntos más
+                    alejados de la isla.
+                </p>
+            </details>
+
+
+            <div class="container row justify-content-center mt-5 mb-5">
+                <iframe class="video" src="https://www.youtube.com/embed/PzsH4tQjqoI"
+                    title="Sube y déjate llevar · 1912 · FERROCARRIL DE SÓLLER" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <script src="/js/guia.js"></script>
+            <script src="/js/footer.js"></script>
+            <script src="/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
