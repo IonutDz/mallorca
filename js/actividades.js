@@ -91,13 +91,6 @@ function crearActividad(valor) {
 }
 */
 
-var inputs = document.querySelectorAll('input');
-function contarInputs() {
-    var cantidadDeInputs = inputs.length;
-    console.log('Número de inputs en la página: ' + cantidadDeInputs);
-}
-
-
 function crearActividad(valor) {
     const actividad = actividades[valor];
     if (actividad) {
@@ -119,14 +112,8 @@ function crearActividad(valor) {
         `;
 
         // Aplicar estilos al modal
-        modal.style.display = "block";
-        modal.style.position = "fixed";
-        modal.style.top = "0";
-        modal.style.left = "0";
-        modal.style.width = "100%";
-        modal.style.height = "100%";
-        modal.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
         modal.style.display = "flex";
+        modal.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
         modal.style.alignItems = "center";
         modal.style.justifyContent = "center";
 
