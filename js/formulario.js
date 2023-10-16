@@ -77,9 +77,9 @@ seleccionApellido = document.getElementById("selectapellido");
 
 seleccionarNombre.addEventListener("input", function () {
     if (seleccionarNombre.value.trim() !== '') {
-        seleccionApellido.disabled = false; // Habilitar el campo de correo repetido
+        seleccionApellido.disabled = false; // Habilitar el campo de apellido
     } else {
-        seleccionApellido.disabled = true; // Deshabilitar el campo de correo repetido
+        seleccionApellido.disabled = true; // Deshabilitar el campo de apellido
     }
 });
 
