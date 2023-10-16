@@ -108,6 +108,7 @@ a:active {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 /* Aplicar margen izquierdo a la navbar-brand */
@@ -117,6 +118,16 @@ a:active {
     margin-left: 25px;
     /* Ajusta el valor según tus necesidades */
 }
+
+.navbar-collapse {
+    transition: max-height 0.3s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .navbar-collapse.show {
+    max-height: 1000px; /* Ajusta el valor según tus necesidades */
+  }
 
 details[open] summary~* {
     animation: open 0.3s ease-in-out;
